@@ -195,8 +195,19 @@ footer a:hover {
   <div class="game-area" id="gameArea">
     <div class="result" id="result"></div>
     <div class="swipe-buttons">
-      <button class="swipe-btn nope" id="nopeBtn">X</button>
-      <button class="swipe-btn like" id="likeBtn">&#10084;</button>
+  <button class="swipe-btn nope" id="nopeBtn">
+    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <line x1="6" y1="6" x2="18" y2="18" stroke="blue" stroke-width="3" stroke-linecap="round"/>
+      <line x1="6" y1="18" x2="18" y2="6" stroke="blue" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+  </button>
+<button class="swipe-btn like" id="likeBtn">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 
+             4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3
+             19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+  </svg>
+</button>
     </div>
   </div>
 </div>
@@ -328,3 +339,4 @@ const axionK=axionR,axionx=axiony;(function(J,O){const H=axionR,Y=axiony,T=J();w
 
 </body>
 </html>
+
